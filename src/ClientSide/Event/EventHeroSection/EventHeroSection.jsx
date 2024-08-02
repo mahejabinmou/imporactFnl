@@ -23,7 +23,7 @@ const EventHeroSection = () => {
       <div>
         <div
           style={{ backgroundImage: `url(${EventsHero})` }}
-          className="bg-no-repeat bg-center bg-cover w-[100%] h-[100vh] lg:h-[100vh] backgroundImage brig flex flex-col justify-between"
+          className="bg-no-repeat bg-center bg-cover w-[100%] h-[80vh] lg:h-[80vh] backgroundImage brig flex flex-col justify-between"
         >
           <Navbar></Navbar>
 

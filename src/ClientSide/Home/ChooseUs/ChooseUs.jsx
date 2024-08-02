@@ -6,7 +6,7 @@ const ChooseUs = () => {
   return (
     <>
       <div
-        className="mt-[40px] px-[30px]
+        className="mt-[25px] px-[30px]
    
     md:mt-[60px] md:px-[32px]
     

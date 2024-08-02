@@ -22,7 +22,7 @@ const MembershipHero = () => {
         <div
           style={{ backgroundImage: `url(${membershipBanner})` }}
           className="
-            bg-no-repeat bg-center bg-cover w-[100%] h-[100vh] lg:h-[100vh]  backgroundImage brig flex flex-col justify-between"
+            bg-no-repeat bg-center bg-cover w-[100%] h-[80vh] lg:h-[80vh]  backgroundImage brig flex flex-col justify-between"
         >
           <Navbar></Navbar>
           {/* bg img footer content */}

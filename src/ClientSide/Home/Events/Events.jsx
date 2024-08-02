@@ -207,7 +207,7 @@ const Events = () => {
                 <div className="flex items-center justify-start ">
                   {/* <IoLocationSharp className="text-[#7EA254]" /> */}
                   <div>
-                    <p className="memberSliderSubtitle">lets party</p>
+                    <p className="memberSliderSubtitle">let's celebrate</p>
                     <p className="memberSliderSubtitle">28 Dec'24</p>
                   </div>
                 </div>

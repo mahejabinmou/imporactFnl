@@ -10,7 +10,7 @@ import slideTwo from "../../../../public/Images/slides/slide2.jpg";
 import slideThree from "../../../../public/Images/slides/slide3.jpg";
 import Navbar from "../../Shared/Navbar/Navbar";
 import Home1 from "../../../../public/Images/Home/Home1.jpg";
-import Home2 from "../../../../public/Images/Home/WDW_0963.jpg";
+import Home2 from "../../../../public/Images/HomePopular/Home2.jpg";
 import Home3 from "../../../../public/Images/Home/A7405767.jpg";
 
 const HeroSection = () => {
@@ -67,10 +67,10 @@ const HeroSection = () => {
             <div
               style={{ backgroundImage: `url(${Home1})` }}
               className="
-            bg-no-repeat bg-center bg-cover w-[100%] h-[100vh] lg:h-[100vh] "
+            bg-no-repeat bg-center bg-cover w-[100%] h-[80vh]  lg:h-[80vh]  "
             >
               {/* Hero Image Content */}
-              {/* <div className="HomeheroImgParent flex justify-center lg:justify-start items-end h-[100vh] lg:h-[100vh] bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
+              {/* <div className="HomeheroImgParent flex justify-center lg:justify-start items-end h-[100vh]  lg:h-[100vh]  bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
                 <div className="lg:w-1/2 ">
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
@@ -112,10 +112,10 @@ const HeroSection = () => {
             <div
               style={{ backgroundImage: `url(${Home2})` }}
               className="
-          bg-no-repeat bg-center bg-cover w-[100%] h-[100vh] lg:h-[100vh] "
+          bg-no-repeat bg-center bg-cover w-[100%] h-[80vh]  lg:h-[80vh]  "
             >
               {/* Hero Image Content */}
-              {/* <div className="HomeheroImgParent flex items-end h-[100vh] lg:h-[100vh] w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
+              {/* <div className="HomeheroImgParent flex items-end h-[100vh]  lg:h-[100vh]  w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
                 <div className="lg:w-1/2 ">
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
@@ -158,10 +158,10 @@ const HeroSection = () => {
             <div
               style={{ backgroundImage: `url(${Home3})` }}
               className="
-          bg-no-repeat bg-center bg-cover w-[100%] h-[100vh] lg:h-[100vh] "
+          bg-no-repeat bg-center bg-cover w-[100%] h-[80vh]  lg:h-[80vh]  "
             >
               {/* Hero Image Content */}
-              {/* <div className="HomeheroImgParent flex items-end h-[100vh] lg:h-[100vh] w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
+              {/* <div className="HomeheroImgParent flex items-end h-[100vh]  lg:h-[100vh]  w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
                 <div className="lg:w-1/2 ">
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
@@ -209,10 +209,10 @@ const HeroSection = () => {
             <div
               style={{ backgroundImage: `url(${slideOne})` }}
               className="
-            bg-no-repeat bg-center bg-cover w-[100%] h-[100vh] lg:h-[100vh] "
+            bg-no-repeat bg-center bg-cover w-[100%] h-[80vh]  lg:h-[80vh]  "
             >
               {/* Hero Image Content */}
-              {/* <div className="HomeheroImgParent flex justify-center lg:justify-start items-end h-[100vh] lg:h-[100vh] bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
+              {/* <div className="HomeheroImgParent flex justify-center lg:justify-start items-end h-[100vh]  lg:h-[100vh]  bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
                 <div className="lg:w-1/2 ">
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
@@ -254,10 +254,10 @@ const HeroSection = () => {
             <div
               style={{ backgroundImage: `url(${slideTwo})` }}
               className="
-          bg-no-repeat bg-center bg-cover w-[100%] h-[100vh] lg:h-[100vh] "
+          bg-no-repeat bg-center bg-cover w-[100%] h-[80vh]  lg:h-[80vh]  "
             >
               {/* Hero Image Content */}
-              {/* <div className="HomeheroImgParent flex items-end h-[100vh] lg:h-[100vh] w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
+              {/* <div className="HomeheroImgParent flex items-end h-[100vh]  lg:h-[100vh]  w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
                 <div className="lg:w-1/2 ">
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
@@ -300,10 +300,10 @@ const HeroSection = () => {
             <div
               style={{ backgroundImage: `url(${slideThree})` }}
               className="
-          bg-no-repeat bg-center bg-cover w-[100%] h-[100vh] lg:h-[100vh] "
+          bg-no-repeat bg-center bg-cover w-[100%] h-[80vh]  lg:h-[80vh]  "
             >
               {/* Hero Image Content */}
-              {/* <div className="HomeheroImgParent flex items-end h-[100vh] lg:h-[100vh] w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
+              {/* <div className="HomeheroImgParent flex items-end h-[100vh]  lg:h-[100vh]  w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
                 <div className="lg:w-1/2 ">
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
