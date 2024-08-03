@@ -68,11 +68,11 @@
   }
 
   .mobileMenuParent {
-    @apply pt-[25px] text-[14px]
+    @apply pt-[25px] text-[14px]   space-x-[5px]
     /* ======== */
     md:pt-[30px] md:text-[16px]
     /* ======== */
-    lg:pt-[0px] lg:text-[15px] lg:flex lg:list-none lg:text-black lg:space-x-[15px]
+    lg:pt-[0px] lg:text-[15px] lg:flex lg:list-none lg:text-black lg:space-x-[20px]
     /* ======== */
     xl:pt-[0px] xl:text-[18px] xl:flex xl:list-none xl:text-black xl:space-x-[25px]
     /* ============ */
@@ -872,9 +872,9 @@
     /* ========== */
     font-Varela font-normal;
   }
-  .ourServieParaTextParent {
+  /* .ourServieParaTextParent {
     @apply lg:px-[19%];
-  }
+  } */
 
   /* ======================== joys living ===============*/
   .teamContentParent {
@@ -911,10 +911,10 @@
 
   /* =========== */
   .joysSliderImgParent {
-    @apply h-[300px]  md:h-[300px] lg:h-[300px] xl:h-[300px];
+    @apply h-[300px]  md:h-[300px] lg:h-[300px] xl:h-[500px] 2xl:h-[500px];
   }
   .ServicejoysSliderImgParent {
-    @apply h-[300px] md:h-[300px] lg:h-[300px] xl:h-[300px];
+    @apply h-[300px] md:h-[300px] lg:h-[800px] xl:h-[500px] 2xl:h-[500px];
   }
   .joysFirstSliderTitle {
     @apply text-[24px] leading-[36px] pt-[15px] pb-[0px]

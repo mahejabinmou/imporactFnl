@@ -1,10 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import { FaAngleRight } from "react-icons/fa";
-import { IoMenu } from "react-icons/io5";
-import { MdClose } from "react-icons/md";
-import { Link } from "react-router-dom";
 import Navbar from "../../Shared/Navbar/Navbar";
+import Megha2 from "..//..//..//../public/Images/contactUs/megha2.jpg";
 
 const NavbarContact = () => {
   const [open, setOpen] = useState(false);
@@ -21,8 +19,9 @@ const NavbarContact = () => {
   return (
     <div>
       <div
-        className='bg-[url("https://i.ibb.co/6yCbPVM/megha.jpg")]
-            bg-no-repeat bg-center bg-cover w-[100%] h-[80vh] lg:h-[80vh] backgroundImage brig flex flex-col justify-between'
+        className="
+            bg-no-repeat bg-center bg-cover w-[100%] h-[80vh] lg:h-[80vh] backgroundImage brig flex flex-col justify-between"
+        style={{ backgroundImage: `url(${Megha2})` }}
       >
         <Navbar></Navbar>
         {/* bg img footer content */}

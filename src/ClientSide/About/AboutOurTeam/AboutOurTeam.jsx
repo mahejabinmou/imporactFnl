@@ -130,8 +130,8 @@ const AboutOurTeam = () => {
   };
 
   return (
-    <div className=" mt-[60px] md:mt-[80px]   lg:mt-[80px]  xl:mt-[200px] 2xl:px-[100px] 2xl:mt-[200px]">
-      <div className="lg:text-center md:text-center xl:text-center 2xl:text-center px-[30px] md:px-[32px] lg:px-[60px] xl:px-[100px]">
+    <div className=" ">
+      <div className=" px-[30px] md:px-[32px] lg:px-[60px] xl:px-[100px] [100px] mt-md:mt-[80px]   lg:mt-[80px]  xl:mt-[200px] 2xl:px-[100px] 2xl:mt-[200px]">
         <p className="ourServiceSmall">our Team</p>
         <h3 className="ourServiceTitle">human asset</h3>
         <div className="ourServieParaTextParent">
@@ -146,22 +146,19 @@ const AboutOurTeam = () => {
       </div>
 
       {/* ======== slider cards mobile ========= */}
-      <div className="slider-container pt-[35px] md:pb-[60px] ">
-        <div className="">
-          <div className="joysSliderImgParent relative ">
-            <img
-              className="h-full w-full object-cover rounded-[10px]"
-              src="./Images/aboutOurTeam.png"
-              alt=""
-            />
-            {/* <div className="absolute bottom-0">
+
+      <div className="h-[300px] md:h-[500px] lg:h-[700px] xl:h-[700px] 2xl:h-[800px] pt-[35px] md:pb-[60px] ">
+        <img
+          className="h-full w-full object-cover rounded-[10px]"
+          src="./Images/aboutOurTeam.png"
+          alt=""
+        />
+        {/* <div className="absolute bottom-0">
               <div className="teamContentParent">
                 <h3 className="joysFirstSliderTitle">John Smith</h3>
                 <p className="aboutTeamSubtitle">Therapist</p>
               </div>
             </div> */}
-          </div>
-        </div>
       </div>
     </div>
   );

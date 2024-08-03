@@ -5,6 +5,7 @@ import discoverMomentPhotoOne from "../../../../public/Images/discover/A7406096.
 import discoverMomentPhotoTwo from "../../../../public/Images/discover/IMG_20240727_011328.jpeg";
 import discoverMomentPhotoThree from "../../../../public/Images/discover/A7405850.jpg";
 import discoverReel from "../../../../public/Images/discover/reel.mp4";
+import membershipBanner from "../../../../public/Images/Home/membership/WhatsApp-Image-2.jpg";
 
 const DiscoverMoment = () => {
   return (
@@ -113,14 +114,14 @@ const DiscoverMoment = () => {
                 <div className="img1 w-full">
                   <img
                     className="h-full w-full  rounded-[10px]"
-                    src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719349378/Emopract/image_1_ydzyp5.png"
+                    src={discoverMomentPhotoThree}
                     alt=""
                   />
                 </div>
                 <div className="img2 w-full">
                   <img
                     className="h-full w-full  rounded-[10px]"
-                    src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719349631/Emopract/imgtow_s3zhi8.jpg"
+                    src={discoverMomentPhotoOne}
                     alt=""
                   />
                 </div>
@@ -128,9 +129,11 @@ const DiscoverMoment = () => {
 
               <div>
                 <div className="img3 w-full">
-                  <img
-                    className="h-full w-full  rounded-[10px]"
-                    src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719349784/Emopract/img3_y7z7gq.jpg"
+                  <video
+                    className="h-full w-full object-cover rounded-[10px]"
+                    src={discoverReel}
+                    controls
+                    height={800}
                     alt=""
                   />
                 </div>
@@ -140,7 +143,7 @@ const DiscoverMoment = () => {
                 <div className="h-[118px]  2xl:h-[242px]   xl:h-[242px]  lg:h-[150px] md:h-[100px]  w-full">
                   <img
                     className="h-full w-full  rounded-[10px]"
-                    src="https://i.ibb.co/rxJXBr2/image-5.png"
+                    src={discoverMomentPhotoTwo}
                     alt=""
                   />
                 </div>
@@ -150,7 +153,7 @@ const DiscoverMoment = () => {
                 >
                   <img
                     className="h-full w-full  rounded-[10px]"
-                    src="https://i.ibb.co/2ybqZMP/image-6.png"
+                    src={membershipBanner}
                     alt=""
                   />
                 </div>

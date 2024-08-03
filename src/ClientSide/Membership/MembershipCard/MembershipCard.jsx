@@ -66,7 +66,7 @@ const MembershipCard = () => {
                         </div>
                     </div>
                 </div> */}
-        <div className="h-[643px] md:h-[643px] lg:h-[643px] xl:h-[643px] 2xl:h-[900px] w-full">
+        <div className=" ">
           <img src={cardOne} className="h-full w-full "></img>
         </div>
         {/* ============ card two========== */}
@@ -118,7 +118,7 @@ const MembershipCard = () => {
                         </div>
                     </div>
                 </div> */}
-        <div className="h-[643px] md:h-[643px] lg:h-[643px] xl:h-[643px] 2xl:h-[900px] w-full">
+        <div className="">
           <img src={cardTwo} className="h-full w-full "></img>
         </div>
         {/* =================== card theree============== */}
@@ -170,7 +170,7 @@ const MembershipCard = () => {
                         </div>
                     </div>
                 </div> */}
-        <div className="h-[643px] md:h-[643px] lg:h-[643px] xl:h-[643px] 2xl:h-[900px] w-full">
+        <div className=" ">
           <img src={cardThree} className="h-full w-full "></img>
         </div>
       </div>

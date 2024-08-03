@@ -1,10 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import { FaAngleRight } from "react-icons/fa";
-import { IoMenu } from "react-icons/io5";
-import { MdClose } from "react-icons/md";
-import { Link } from "react-router-dom";
-import serviceHeroImage from "../../../../public/Images/servicePage/A7405679.jpg";
+import serviceHeroImage from "../../../../public/Images/servicePage/sservice.jpg";
 import Navbar from "../../Shared/Navbar/Navbar";
 
 const ServiceHero = () => {

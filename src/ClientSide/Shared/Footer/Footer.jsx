@@ -11,17 +11,19 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import { IoSend } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import footerIcon from "..//..//..//../public/Images/footer/icon.png";
 
 const Footer = () => {
   return (
     <div className="bg-[#D1D1D1] mt-[187px] 2xl:mt-[280px]  relative">
-      <div className="absolute  top-[-127px]  lg:top-[-80px] xl:top-[-110px] 2xl:top-[-150px] grid grid-cols-1 gap-y-[30px] justify-center w-full ">
-        <div className=" bg-[#EDEDED] mx-[30px] md:mx-[50px] lg:mx-[100px] rounded-[10px] shadow-xl lg:grid lg:grid-cols-2  gap-y-[30px] justify-center items-center">
+      <div className="absolute  top-[-127px] md:top-[-80px]  lg:top-[-80px] xl:top-[-110px] 2xl:top-[-150px] grid grid-cols-1 gap-y-[30px] justify-center w-full ">
+        <div className=" bg-[#EDEDED] mx-[30px] md:mx-[50px] lg:mx-[100px] rounded-[10px] shadow-xl  lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-2 gap-y-[30px] justify-center items-center">
           <div className="footerTopSubParent">
-            <div className="footerTopImg">
+            <div className="footerTopImg h-[40px] w-[40px]">
               <img
-                className="h-full w-full object-cover rounded-full"
-                src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719344043/Emopract/footerTopImg_ldqzbq.jpg"
+                className=" h-full w-full  rounded-full"
+                size={10}
+                src={footerIcon}
                 alt=""
               />
             </div>

@@ -5,14 +5,7 @@ const AboutUs = () => {
   return (
     <div>
       <div className="sectionGap">
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] 2xl:gap-x-[100px] justify-center items-center">
-          <div className="ourServiceImgParent hidden md:block ">
-            <img
-              className="h-full w-full object-cover rounded-[10px]"
-              src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719392724/Emopract/mobileslider_hfyhac.jpg"
-              alt=""
-            />
-          </div>
+        <div className="grid grid-cols-1  justify-center items-center">
           <div>
             <p
               className="ourServiceSmall md:pt-[60px] lg:pt-[0px]

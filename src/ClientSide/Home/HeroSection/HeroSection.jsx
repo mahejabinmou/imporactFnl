@@ -11,7 +11,7 @@ import slideThree from "../../../../public/Images/slides/slide3.jpg";
 import Navbar from "../../Shared/Navbar/Navbar";
 import Home1 from "../../../../public/Images/Home/Home1.jpg";
 import Home2 from "../../../../public/Images/HomePopular/Home2.jpg";
-import Home3 from "../../../../public/Images/Home/A7405767.jpg";
+import Home3 from "../../../../public/Images/HomePopular/H3.jpg";
 
 const HeroSection = () => {
   const [open, setOpen] = useState(false);
